@@ -1,0 +1,150 @@
+body {
+    font-family: "Happy Monkey", serif;
+    text-align: center;
+    background: linear-gradient(#a2d2ff,#EFB0C9);
+    color: #ffffff;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.happy-monkey-regular {
+    font-family: "Happy Monkey", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  #nick {
+    border-radius: 50%; 
+    width: 200px;
+    height: 200px;
+    border: 6px solid #EFB0C9 ;
+  }
+
+  h1, h2, h3, h4, p {
+    text-shadow: 0px 0px 1px black
+  }
+
+  #bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0px 10px 0px;
+  }
+
+  #bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+  #header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #bday-age, #bday-date {
+    background: #EFB0C9;
+  }
+
+  .gift-img {
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("https://images.unsplash.com/photo-1549465220-1a8b9238cd48?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z2lmdHxlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+  }
+
+  .gift-img:hover {
+    background-image: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXNmNXVoZ2N6OWxmZ3A5OGpucGpuaWVjOXAweDlvdXd3ajllZmlrZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CyoQdbc7FHqqTpkSPI/giphy.gif");
+  }
+
+  .gift-section {
+    margin-top: 50px;
+  }
+
+  .gift-hint {
+    margin-top: 0;
+  }
+
+  .gift-title {
+    margin-top: 10px;
+  }
+
+  #hot-stuff {
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("https://images.unsplash.com/photo-1549465220-1a8b9238cd48?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z2lmdHxlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+
+  }
+
+  #hot-stuff:hover {
+    background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXN3ajVkYjFmZWdrdWJyZzhuY2Fsczdpa2J0YmF6cGdmOTc3ZG56NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BQCsG0FBYjeYkmQ5bs/giphy.gif");
+  }
+
+  #one-word {
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("https://images.unsplash.com/photo-1549465220-1a8b9238cd48?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z2lmdHxlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+
+  }
+
+  #one-word:hover {
+    background-image: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2Jia3I2MGx3eHN4Y2ZkN3QycXJ1MnhmYzI1dWhwaTB6bzNwYXlmMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QKT2vusajZw3nMaxlx/giphy.gif")
+
+  }
+
+  #badass {
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("https://images.unsplash.com/photo-1549465220-1a8b9238cd48?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z2lmdHxlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+
+  }
+
+  #badass:hover {
+    background-image: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjN0dHZob2R2YXdwNmV6dmpjbWY2aHlqdnBtcXZxeHZwOWx4czVjMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WoRz0xf3fUBWTWXUJ0/giphy.gif");
+    
+  }
+
+  #cheers {
+    margin: 0 auto;
+    width: 400px;
+    height: 250px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("https://images.unsplash.com/photo-1549465220-1a8b9238cd48?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z2lmdHxlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+
+  }
+
+  #cheers:hover {
+    background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYm5hMHJ0eW9rbjE2NGRwcWt0bTVmdjJ1bzJ3YmN0ZDdmdG40NXFwNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/f9RzoxHizH72k15FKS/giphy.gif");
+    
+  }
+
+  #footer {
+   width: 400px;
+   margin: 40px auto 20px;
+   font-style: italic;
+  }
+
+  a {
+    color: white;
+  }
